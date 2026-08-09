@@ -1,0 +1,37 @@
+/* Lightweight AdSense layout helpers. */
+.adsense-container {
+    clear: both;
+    margin: 1.75rem 0;
+    min-height: 90px;
+    text-align: center;
+}
+
+.adsense-container--mid {
+    margin: 2rem 0;
+}
+
+.adsense-container--end {
+    margin: 2.25rem 0 1rem;
+}
+
+.adsense-container .adsbygoogle {
+    display: block !important;
+    width: 100%;
+}
+
+.adsense-container.is-unfilled {
+    display: none;
+    min-height: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .adsense-container {
+        margin: 1.25rem 0;
+        min-height: 60px;
+    }
+
+    .adsense-container--end {
+        margin-bottom: 0.75rem;
+    }
+}
